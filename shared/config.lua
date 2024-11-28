@@ -3,16 +3,16 @@ Config = Config or {}
 Config.debug = false
 
 -- Notification System
-Config.notification = "qbcore"  -- Options: qbcore, ox (If you have more this function can be found cl.lua line 21)
+Config.notification = "ox"  -- Options: qbcore, ox (If you have more this function can be found cl.lua line 21)
 
 -- Progress Bar
-Config.progress = "qbcore"  -- Options: qbcore, ox
+Config.progress = "ox"  -- Options: qbcore, ox
 
 -- Menu System
-Config.menu = "qbcore"  -- Options: qbcore, ox
+Config.menu = "ox"  -- Options: qbcore, ox
 
 -- Fuel System
-Config.fuel = "cdn-fuel" -- Export for fuel script (if using ox just put "ox")
+Config.fuel = "ox" -- Export for fuel script (if using ox just put "ox")
 
 -- Blips
 Config.useBlips = true  -- true = Enabled, false = Disabled
@@ -98,7 +98,7 @@ Config.receive = {
     tr_woodplank = 4,         -- 1 = 4
     tr_woodhandles = 2,        -- 1 = 2
     tr_firewood = 6,       -- 1 = 6
-    tr_toyset = 1,        -- 1 = 1
+    tr_woodentoy = 1,        -- 1 = 1
 }
 
 -- Selling Prices
